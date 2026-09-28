@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9052b5c5b1044a55a9fe4b3c82318720, type: 3}
+  m_Name: Lantern
+  m_EditorClassIdentifier:
+  id: lantern
+  displayName: "Карманный фонарь"
+  modules:
+  - {fileID: 11400000, guid: cad45f3f201d44a29feab4c1802027df, type: 2}
+  - {fileID: 11400000, guid: b3f73a9833684131ba7b2242d8f92043, type: 2}
+  - {fileID: 11400000, guid: b6baab954d814653b402a71fdc8271d5, type: 2}
+  - {fileID: 11400000, guid: 0f42d8c83c88434d8ebdb8d15cd4598e, type: 2}
+  - {fileID: 11400000, guid: 38b800e1166f4ffb82ba5aa3e0891ad3, type: 2}
+  baseRepairedPrice: 60
+  marketPriceMin: 15
+  marketPriceMax: 25
+  minDefects: 2
+  maxDefects: 3

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c564a755ce4dee8164f37b6866bce6, type: 3}
+  m_Name: Defect_dirty_body
+  m_EditorClassIdentifier:
+  id: dirty_body
+  displayName: "Грязный корпус"
+  visibility: 0
+  tool: {fileID: 11400000, guid: 40992eadf45f4ee2bd877d234b5be8e4, type: 2}
+  gesture: 1
+  symptom:
+  blocksFunction: 0
+  symptomPriority: 99
+  marketNote: "корпус в грязи"

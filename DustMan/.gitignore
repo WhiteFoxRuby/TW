@@ -1,0 +1,75 @@
+# ---------------------------------------------------------------- Unity
+# Генерируемые Unity папки. Library — кэш импорта (гигабайты), пересобирается
+# при первом открытии проекта; Temp/Obj — промежуточные артефакты сборки.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Пакеты, скачиваемые Package Manager (manifest.json и packages-lock.json — версионируются).
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+/Packages/*/
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# Ассеты, экспортированные из Unity.
+*.unitypackage
+*.unitypackage.meta
+ExportedObj/
+*.apk
+*.aab
+*.app
+*.ipa
+
+# Файлы-«призраки»: .meta без ассета Unity удалит сама.
+/[Aa]ssets/AssetStoreTools*
+
+# Crashlytics / краш-репорты.
+sysinfo.txt
+crashlytics-build.properties
+
+# ---------------------------------------------------------------- IDE
+# Решения и проекты генерируются Unity из .cs — версионировать их не нужно.
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+.vs/
+.idea/
+.vscode/
+.consulo/
+
+# ---------------------------------------------------------------- ОС
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# ---------------------------------------------------------------- DustMan
+# Телеметрия: README раздела версионируется, сами прогоны — нет.
+/Telemetry/local/
+/Telemetry/simulations/
+/Telemetry/playtests/
+
+# Локальные настройки ассистента (машинно-специфичные).
+/.claude/settings.local.json

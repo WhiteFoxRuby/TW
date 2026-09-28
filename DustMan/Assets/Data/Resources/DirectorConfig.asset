@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f719ce61a284adca9faaffdb3b9afc8, type: 3}
+  m_Name: DirectorConfig
+  m_EditorClassIdentifier:
+  historyDays: 3
+  indexSmoothing: 0.5
+  pressureHigh: 0.65
+  pressureLow: 0.25
+  boredomHigh: 0.6
+  frustrationHigh: 0.55
+  runwayComfortDays: 4
+  lowMoneyThreshold: 40
+  frozenDaysComfort: 2
+  pressureWeightRunway: 0.5
+  pressureWeightLowMoney: 0.25
+  pressureWeightFrozen: 0.25
+  leadCooldownDays: 4
+  leadMaxDays: 8
+  leadOverdueDays: 7
+  repetitionWindowRestocks: 4
+  boredomWeightRepetition: 0.5
+  boredomWeightLeadOverdue: 0.3
+  boredomWeightIdleSlots: 0.2
+  errorsPerRepairComfort: 2
+  checkFailStreakComfort: 2
+  frustrationWeightErrors: 0.4
+  frustrationWeightCheckFails: 0.4
+  frustrationWeightWalkaways: 0.2
+  knobMaxStepPerDay: 0.34
+  buyerMoodRatioDelta: 0.08
+  stockBonusAtFullGenerosity: 1
+  priceDiscountAtFullGenerosity: 4
+  defectBiasAtFullGenerosity: 0.75
+  marketMinStock: 1
+  marketPriceFloor: 8
+  weeklyKnobBudget: 3
+  humQualityThreshold: 80
+  humPriceBonus: 0.15
+  decisionLogSize: 32
